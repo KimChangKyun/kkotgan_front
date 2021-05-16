@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+.pc_dis_none{
+  display: none;
+}
+.mobile_dis_none{
+  display: block;
+}
+
+/* 모바일 가로, 테블릿 세로 (해상도 ~ 479px)*/ 
+@media (min-width:480px) and (max-width:1790px) {
+  .wrap{width: 1040px;}
+  .wrap_in{width: 1000px;}
+  .main_section{margin-top: 15px;}
+  .main_select_box{width: 324px; height: 470px;}
+  .main_select_box_title{margin-top: 340px; font-size: 36px;}
+  .banner_text_wrap{margin-top: -250px; font-size: 24px; padding-left: 40px;}
+  .v_line { width: 1px; height: 29px; margin: 15px 251px 6px 67px;}
+}
+
+/* 모바일 가로, 테블릿 세로 (해상도 ~ 479px)*/ 
+@media all and (max-width:479px) {
+  .mobile_dis_none{
+    display: none;
+  }
+  .pc_dis_none{
+    display: block;
+  }
+  .logo{margin-top: 10px;}
+  .wrap{width: 95%;}
+  .wrap_in{width: 350px;}
+  .wrap_login{width: 350px;}
+  .wrap_join{width: 350px;}
+  .input{width: 100%;}
+
+
+  .main_title {
+    font-size: 16px;
+    line-height: 1;
+  }
+  
+  .main_subtitle{
+    font-size: 12px;
+    line-height: 1;
+  }
+  
+  .main_section{margin-top: 15px;}
+  
+  .header_top_span{font-size: 12px; line-height: 46px;}
+
+  .header{padding: 0;}
+  .header_menu{line-height: 15px; font-size: 12px;}
+
+  .main_s1{height: 658px; opacity: 0.3; margin-top: -50px; background-color: #222629; background-image: url('img/assets/main_slider.jpg'); overflow: hidden;}
+  .main_s_text_wrap{width: 276px; margin: 0 auto;}
+  .main_s_text{font-family: 'MapoFlowerIsland'; font-size: 36px; font-weight: normal; font-stretch: normal; font-style: normal; line-height: 1.42; letter-spacing: normal; text-align: center; margin-top: 248px;}
+  .main_sbt{border-top: solid 1px #f7f5f2;}
+  .main_sbb{border-bottom: solid 1px #f7f5f2;}
+  
+  .main_select_box_wrap{padding: 0;}
+  .main_select_box{width: 100%; height: 182px; margin-right:0; margin-top: 5px; padding-left: 24px; background-color:#939e91;}
+  .main_select_box_title{font-family: 'MapoFlowerIsland'; font-size: 36px; margin-top: 82px;}
+  .main_select_box_subtitle{font-family: 'Benne'; font-size: 12px;}
+  .main_select_box_img{opacity: 1;}
+  
+  .banner_text_wrap{font-size: 32px; font-family: 'MapoFlowerIsland'; line-height: 1.5; padding-left: 24px}
+
+  .review_img{
+    width: 240px;
+    height: 400px;
+  }
+  .review_img img{
+    width: 240px;
+  }
+  .review_text_box{
+    margin-top: 500px;
+  }
+  .review_text{width: 250px; font-size: 12px;}
+
+  .v_line {
+    width: 2px;
+    height: 53px;
+    margin: 15px 262px 28px 67px;
+    border-radius: 1px;
+    background-color: #f7f5f2;
+  }
+
+  .footer_top_count{font-size: 32px; margin: 0;}
+  .footer_top_text{width: auto; margin-top: 5px; font-size: 16px;}
+  .footer_top_text button{width: 145px; margin-top: 10px;}
+  .footer_top_count > div{font-size: 16px;}
+}
+
+
+
+
+
+
+
+
+
+/* PC , 테블릿 가로 (해상도 768px ~ 1023px)*/ 
+@media all and (min-width:480px) {
+
+}
+/* 테블릿 세로 (해상도 768px ~ 1023px)*/ @media all and (min-width:768px) and (max-width:1023px) { /*스타일입력*/} 
+
+/* 모바일 가로, 테블릿 세로 (해상도 480px ~ 767px)*/ @media all and (min-width:480px) and (max-width:767px) { /*스타일입력*/} 

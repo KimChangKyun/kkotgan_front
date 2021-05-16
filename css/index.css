@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+
+
+/*메인*/
+
+.main_title {
+  font-family: 'Benne';
+  font-size: 32px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.34;
+  letter-spacing: 4.8px;
+  text-align: center;
+  color: #222629;
+}
+
+.main_subtitle{
+  font-family: 'NotoSansCJKKR';
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #c5a282;
+}
+
+
+.header_top_span{text-align: center; font-size: 16px; line-height: 56px;}
+.header_menu{line-height: 30px;}
+
+.main_s1{height: 658px; opacity: 0.3; background-color: #222629; background-image: url('img/assets/main_slider.jpg'); overflow: hidden;}
+.scroll_down {
+  width: 19px;
+  height: 92px;
+  margin: 0 0 8px;
+  font-family: 'Benne';
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.54;
+  letter-spacing: normal;
+  text-align: left;
+  color: #f7f5f2;
+}
+.main_s_text_wrap{width: 362px;}
+.main_s_text{font-family: 'MapoFlowerIsland'; font-size: 48px; font-weight: normal; font-stretch: normal; font-style: normal; line-height: 1.42; letter-spacing: normal; text-align: center;}
+.main_sbt{border-top: solid 1px #f7f5f2;}
+.main_sbb{border-bottom: solid 1px #f7f5f2;}
+
+
+.main_select_box{overflow: hidden; width: 397px; height: 582px; float: left; background-color:#000; padding-left: 40px;}
+.main_select_box_title{font-family: 'MapoFlowerIsland'; font-size: 56px; margin-top: 416px; z-index: 100;}
+.main_select_box_subtitle{font-family: 'Benne'; font-size: 16px; z-index: 100;}
+.main_select_box_img{width: 110%; opacity: 0.8;}
+.banner_text_wrap{font-family: 'MapoFlowerIsland'; font-size: 48px; font-family: 'MapoFlowerIsland'; line-height: 1.5; margin-top: -433px;}
+.v_line {
+  width: 2px;
+  height: 53px;
+  margin: 15px 262px 28px 67px;
+  border-radius: 1px;
+  background-color: #f7f5f2;
+}
+
+.review_img_box{
+  top: 200px;
+}
+.review_img{
+  overflow: hidden;
+  width: 331px;
+  height: 565px;
+}
+.review_img img{
+  width: 331px;
+}
+.review_text_box{
+  margin-top: 650px;
+}
+.review_text{
+  width: 814px;
+  font-size: 16px;
+}
+.inf_name{ color: #c5a282; font-size: 12px;}
+
+.footer_top_count{
+  margin: 0 82.5px 16px 0;
+  font-family: 'NotoSerif';
+  font-size: 72px;
+  line-height: 1.33;
+  letter-spacing: 10.8px;
+}
+.footer_top_text{
+  width: 291px;
+  height: 88px;
+  font-family: 'MapoFlowerIsland';
+  font-size: 28px;
+  line-height: 1.53;
+  color: #f7f5f2;
+  text-align: right;
+}
+
+.footer_top_count > div{
+  text-align: center;
+  font-family: 'MapoFlowerIsland';
+  line-height: 1.21;
+  letter-spacing: normal;
+  font-size: 24px;
+}
+
+
+
+
+
+
+.wrap_login{width: 490px; margin: 0 auto;}
+.wrap_join{width: 700px; margin: 0 auto;}
+
+.join_input_box{width: 75%; float: left;}
+.wrap_join button{width: 20%; float: right; margin-top: 8px; height: 56px;}
+.join_btn{width: 490px !important; float: none !important;}
+.join_check_border{
+  padding: 32px 0px 32px 32px;
+  border: solid 1px #ebebeb;
+}
+.join_check_necessary{
+  color: #a03f26;
+}
+
+
+
+
