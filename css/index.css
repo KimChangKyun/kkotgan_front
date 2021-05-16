@@ -52,6 +52,9 @@
 .main_sbt{border-top: solid 1px #f7f5f2;}
 .main_sbb{border-bottom: solid 1px #f7f5f2;}
 
+.story_slider{z-index: 200;}
+.story_slider .slick-list{padding: 0 !important;}
+
 
 .main_select_box{overflow: hidden; width: 397px; height: 582px; float: left; background-color:#000; padding-left: 40px;}
 .main_select_box_title{font-family: 'MapoFlowerIsland'; font-size: 56px; margin-top: 416px; z-index: 100;}
@@ -130,6 +133,59 @@
   color: #a03f26;
 }
 
+
+
+.wrap_subscribe_top{width: 484px; margin: 0 auto;}
+.wrap_subscribe_bottom{width: 1080px; margin: 0 auto;}
+.wrap_subscribe_bottom_1{width: max-content; min-width: 300px; margin: 0 auto;}
+
+
+
+
+.subscribe_top_icon{width: 64px;
+  height: 64px;
+  margin: 0 0.1px 12px 0;
+  padding: 20px;
+  border:1px solid #939e91;
+  border-radius: 50%;
+  background-repeat: no-repeat; background-size: 24px; background-position: center;
+}
+.subscribe_top_icon.this{background-color: #939e91;}
+.subscribe_top_icon_box_1{width: 64px; float: left;}
+.subscribe_top_icon_box_2{width: 67px; float: left;}
+.subscribe_top_icon_box_2 > .btn_line{margin-top: 32px; background-color: #939e91; z-index: 100;}
+.subscribe_top_icon_box_2 .btn_circle{border-color: #939e91; }
+
+.wrap_subscribe_bottom_title_img:nth-child(1){left: -68px;}
+.wrap_subscribe_bottom_title_img:nth-child(2){margin: 0; left: 100%;}
+
+.subscribe_1_item_box{width: 190px;}
+.subscribe_1_item_img_border{border: solid 1px #f7f1ef; border-radius: 50%;
+  height: 191px;
+  background-position: center;
+  vertical-align:middle;
+}
+.subscribe_1_item_img_border.this{
+  border: solid 2px #c5a282;
+}
+.subscribe_1_item_img_border img{vertical-align:middle;}
+
+.subscribe_1_item_box_title{font-family: 'MapoFlowerIsland'; line-height: 1.33;
+  letter-spacing: 1.2px;
+  color: #222629;
+  font-size: 16px;}
+.subscribe_1_item_box_subtitle{
+  font-family: NotoSansCJKKR;
+  font-size: 16px;line-height: 1.5;color: #939e91;
+}
+
+.subscribe_2_item_box{width: 400px; float: left;}
+.subscribe_2_item_box button{     width: auto;
+  height: auto;
+  padding: 6px 20px;
+  font-size: 12px;}
+  .subscribe_2_item_title{font-family: 'MapoFlowerIsland'; font-size: 24px;}
+  .subscribe_2_item_subtitle{font-family: 'MapoFlowerIsland'; font-size: 16px;}
 
 
 

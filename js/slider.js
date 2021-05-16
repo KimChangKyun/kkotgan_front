@@ -3,7 +3,8 @@ $('.slider-for').slick({
 	slidesToScroll: 1,
 	arrows: false,
 	fade: true,
-	asNavFor: '.slider-nav'
+	asNavFor: '.slider-nav',
+	adaptiveHeight: true
   });
 
 
@@ -112,12 +113,46 @@ $('.slider-for').slick({
 		if(story_slider_top <= now_top + 300){
 			if (e.originalEvent.deltaY < 0) {
 				$("html").css({"overflow":"scroll"})
+				$(slider).css({
+					"position": "static",
+					"top":"",
+					"left":"",
+					"transform":"",
+					"-webkit-transform":"",
+					"-moz-transform":"",
+					"-ms-transform":"",
+					"-o-transform":""
+				})
+				$(".shadow").css({"display":"none"})
 			} else {
 				if(slider_fix_count <= 2){
 					$("html").css({"overflow":"hidden"});
 					$(slider).slick('slickNext');	
+					$(slider).css({
+						// "position": "fixed",
+						// "top":"50%",
+						// "left":"50%",
+						// "transform":"translate(-50%, -50%)",
+						// "-webkit-transform":"translate(-50%, -50%)",
+						// "-moz-transform":"translate(-50%, -50%)",
+						// "-ms-transform":"translate(-50%, -50%)",
+						// "-o-transform":"translate(-50%, -50%)",
+						"z-index": "200"
+					})
+					$(".shadow").css({"display":"block"})
 				}else{
 					$("html").css({"overflow":"scroll"});
+					$(slider).css({
+						"position": "static",
+						"top":"",
+						"left":"",
+						"transform":"",
+						"-webkit-transform":"",
+						"-moz-transform":"",
+						"-ms-transform":"",
+						"-o-transform":""
+					});
+					$(".shadow").css({"display":"none"})
 				}
 			}
 		}else{
