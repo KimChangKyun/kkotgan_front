@@ -85,6 +85,30 @@
     background-color: #f7f5f2;
   }
 
+  .subscribe_top_box{padding: 10px 0; font-size: 10px;}
+  .wrap_subscribe_bottom button{width: 100px;}
+  .subscribe_top_icon_box_1{width: 40px;}
+  .subscribe_top_icon {width: 40px; height: 40px; padding: 12px; margin-bottom: 5px;}
+  .subscribe_top_icon img{width: 16px;}
+  .subscribe_top_icon_box_2{width: 40px;}
+  .subscribe_top_icon_box_2 .btn_line{width: 41px; margin-top: 21px;}
+  .wrap_subscribe_top{ width: 280px;}
+  .wrap_subscribe_bottom{width: 100% !important; padding: 10px 0;}
+  .wrap_subscribe_bottom_1 { width: 250px; min-width: auto;}
+  .wrap_subscribe_bottom_1 div{margin: 5px; font-size: 12px;}
+  .wrap_subscribe_bottom_title_img{width: 42px;}
+  .wrap_subscribe_bottom_title_img:nth-child(1){left: -42px;}
+  .wrap_subscribe_bottom_title_img:nth-child(2){left: 100%;}
+  .subscribe_1_item_box{ float: none; margin: 20px auto;}
+  
+  .subscribe_2_item_box{width: 100%; padding: 10px;}
+
+
+
+
+
+
+
   .footer_top_count{font-size: 32px; margin: 0;}
   .footer_top_text{width: auto; margin-top: 5px; font-size: 16px;}
   .footer_top_text button{width: 145px; margin-top: 10px;}

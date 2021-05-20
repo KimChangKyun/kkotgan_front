@@ -136,12 +136,12 @@
 
 
 .wrap_subscribe_top{width: 484px; margin: 0 auto;}
-.wrap_subscribe_bottom{width: 1080px; margin: 0 auto;}
+.wrap_subscribe_bottom{/*width: 1080px;*/ margin: 0 auto;}
 .wrap_subscribe_bottom_1{width: max-content; min-width: 300px; margin: 0 auto;}
 
 
 
-
+.wrap_subscribe_bottom button{margin: 5px;}
 .subscribe_top_icon{width: 64px;
   height: 64px;
   margin: 0 0.1px 12px 0;
@@ -187,5 +187,10 @@
   .subscribe_2_item_title{font-family: 'MapoFlowerIsland'; font-size: 24px;}
   .subscribe_2_item_subtitle{font-family: 'MapoFlowerIsland'; font-size: 16px;}
 
-
-
+.subscribe_4_payr_box{
+  width: 320px;
+}
+.subscribe_4_payr_box > div{
+  padding: 16px;
+  background-color: #f9f8f6;}
+.subscribe_4_payr_box_input{width: 320px;}
