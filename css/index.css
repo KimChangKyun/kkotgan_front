@@ -1,213 +1,362 @@
 @charset "UTF-8";
 
-
-
 /*메인*/
 
 .main_title {
-  font-family: 'Benne';
-  font-size: 32px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.34;
-  letter-spacing: 4.8px;
-  text-align: center;
-  color: #222629;
+    font-family: "Benne";
+    font-size: 32px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.34;
+    letter-spacing: 4.8px;
+    text-align: center;
+    color: #222629;
 }
 
-.main_subtitle{
-  font-family: 'NotoSansCJKKR';
-  font-size: 16px;
-  font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  text-align: center;
-  color: #c5a282;
+.main_subtitle {
+    font-family: "NotoSansCJKKR";
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #c5a282;
 }
 
+.header_top_span {
+    text-align: center;
+    font-size: 16px;
+    line-height: 56px;
+}
+.header_menu {
+    line-height: 30px;
+}
 
-.header_top_span{text-align: center; font-size: 16px; line-height: 56px;}
-.header_menu{line-height: 30px;}
-
-.main_s1{height: 658px; opacity: 0.3; background-color: #222629; background-image: url('img/assets/main_slider.jpg'); overflow: hidden;}
+.main_s1 {
+    height: 658px;
+    opacity: 0.3;
+    background-color: #222629;
+    background-image: url("img/assets/main_slider.jpg");
+    overflow: hidden;
+}
 .scroll_down {
-  width: 19px;
-  height: 92px;
-  margin: 0 0 8px;
-  font-family: 'Benne';
-  font-size: 13px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.54;
-  letter-spacing: normal;
-  text-align: left;
-  color: #f7f5f2;
+    width: 19px;
+    height: 92px;
+    margin: 0 0 8px;
+    font-family: "Benne";
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.54;
+    letter-spacing: normal;
+    text-align: left;
+    color: #f7f5f2;
 }
-.main_s_text_wrap{width: 362px;}
-.main_s_text{font-family: 'MapoFlowerIsland'; font-size: 48px; font-weight: normal; font-stretch: normal; font-style: normal; line-height: 1.42; letter-spacing: normal; text-align: center;}
-.main_sbt{border-top: solid 1px #f7f5f2;}
-.main_sbb{border-bottom: solid 1px #f7f5f2;}
+.main_s_text_wrap {
+    width: 362px;
+}
+.main_s_text {
+    font-family: "MapoFlowerIsland";
+    font-size: 48px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.42;
+    letter-spacing: normal;
+    text-align: center;
+}
+.main_sbt {
+    border-top: solid 1px #f7f5f2;
+}
+.main_sbb {
+    border-bottom: solid 1px #f7f5f2;
+}
 
-.story_slider{z-index: 200;}
-.story_slider .slick-list{padding: 0 !important;}
+.story_slider {
+    z-index: 200;
+}
+.story_slider .slick-list {
+    padding: 0 !important;
+}
 
-
-.main_select_box{overflow: hidden; width: 397px; height: 582px; float: left; background-color:#000; padding-left: 40px;}
-.main_select_box_title{font-family: 'MapoFlowerIsland'; font-size: 56px; margin-top: 416px; z-index: 100;}
-.main_select_box_subtitle{font-family: 'Benne'; font-size: 16px; z-index: 100;}
-.main_select_box_img{width: 110%; opacity: 0.8;}
-.banner_text_wrap{font-family: 'MapoFlowerIsland'; font-size: 48px; font-family: 'MapoFlowerIsland'; line-height: 1.5; margin-top: -433px;}
+.main_select_box {
+    overflow: hidden;
+    width: 397px;
+    height: 582px;
+    float: left;
+    background-color: #000;
+    padding-left: 40px;
+}
+.main_select_box_title {
+    font-family: "MapoFlowerIsland";
+    font-size: 56px;
+    margin-top: 416px;
+    z-index: 100;
+}
+.main_select_box_subtitle {
+    font-family: "Benne";
+    font-size: 16px;
+    z-index: 100;
+}
+.main_select_box_img {
+    width: 110%;
+    opacity: 0.8;
+}
+.banner_text_wrap {
+    font-family: "MapoFlowerIsland";
+    font-size: 48px;
+    font-family: "MapoFlowerIsland";
+    line-height: 1.5;
+    margin-top: -433px;
+}
 .v_line {
-  width: 2px;
-  height: 53px;
-  margin: 15px 262px 28px 67px;
-  border-radius: 1px;
-  background-color: #f7f5f2;
+    width: 2px;
+    height: 53px;
+    margin: 15px 262px 28px 67px;
+    border-radius: 1px;
+    background-color: #f7f5f2;
 }
 
-.review_img_box{
-  top: 200px;
+.review_img_box {
+    top: 200px;
 }
-.review_img{
-  overflow: hidden;
-  width: 331px;
-  height: 565px;
+.review_img {
+    overflow: hidden;
+    width: 331px;
+    height: 565px;
 }
-.review_img img{
-  width: 331px;
+.review_img img {
+    width: 331px;
 }
-.review_text_box{
-  margin-top: 650px;
+.review_text_box {
+    margin-top: 650px;
 }
-.review_text{
-  width: 814px;
-  font-size: 16px;
+.review_text {
+    width: 814px;
+    font-size: 16px;
 }
-.inf_name{ color: #c5a282; font-size: 12px;}
-
-.footer_top_count{
-  margin: 0 82.5px 16px 0;
-  font-family: 'NotoSerif';
-  font-size: 72px;
-  line-height: 1.33;
-  letter-spacing: 10.8px;
-}
-.footer_top_text{
-  width: 291px;
-  height: 88px;
-  font-family: 'MapoFlowerIsland';
-  font-size: 28px;
-  line-height: 1.53;
-  color: #f7f5f2;
-  text-align: right;
+.inf_name {
+    color: #c5a282;
+    font-size: 12px;
 }
 
-.footer_top_count > div{
-  text-align: center;
-  font-family: 'MapoFlowerIsland';
-  line-height: 1.21;
-  letter-spacing: normal;
-  font-size: 24px;
+.footer_top_count {
+    margin: 0 82.5px 16px 0;
+    font-family: "NotoSerif";
+    font-size: 72px;
+    line-height: 1.33;
+    letter-spacing: 10.8px;
+}
+.footer_top_text {
+    width: 291px;
+    height: 88px;
+    font-family: "MapoFlowerIsland";
+    font-size: 28px;
+    line-height: 1.53;
+    color: #f7f5f2;
+    text-align: right;
 }
 
-
-
-
-
-
-.wrap_login{width: 490px; margin: 0 auto;}
-.wrap_join{width: 700px; margin: 0 auto;}
-
-.join_input_box{width: 75%; float: left;}
-.wrap_join button{width: 20%; float: right; margin-top: 8px; height: 56px;}
-.join_btn{width: 490px !important; float: none !important;}
-.join_check_border{
-  padding: 32px 0px 32px 32px;
-  border: solid 1px #ebebeb;
-}
-.join_check_necessary{
-  color: #a03f26;
+.footer_top_count > div {
+    text-align: center;
+    font-family: "MapoFlowerIsland";
+    line-height: 1.21;
+    letter-spacing: normal;
+    font-size: 24px;
 }
 
-
-
-.wrap_subscribe_top{width: 484px; margin: 0 auto;}
-.wrap_subscribe_bottom{/*width: 1080px;*/ margin: 0 auto;}
-.wrap_subscribe_bottom_1{width: max-content; min-width: 300px; margin: 0 auto;}
-
-
-
-.wrap_subscribe_bottom button{margin: 5px;}
-.subscribe_top_icon{width: 64px;
-  height: 64px;
-  margin: 0 0.1px 12px 0;
-  padding: 20px;
-  border:1px solid #939e91;
-  border-radius: 50%;
-  background-repeat: no-repeat; background-size: 24px; background-position: center;
+.wrap_login {
+    width: 490px;
+    margin: 0 auto;
 }
-.subscribe_top_icon.this{background-color: #939e91;}
-.subscribe_top_icon_box_1{width: 64px; float: left;}
-.subscribe_top_icon_box_2{width: 67px; float: left;}
-.subscribe_top_icon_box_2 > .btn_line{margin-top: 32px; background-color: #939e91; z-index: 100;}
-.subscribe_top_icon_box_2 .btn_circle{border-color: #939e91; }
-
-.wrap_subscribe_bottom_title_img:nth-child(1){left: -68px;}
-.wrap_subscribe_bottom_title_img:nth-child(2){margin: 0; left: 100%;}
-
-.subscribe_1_item_box{width: 190px;}
-.subscribe_1_item_img_border{border: solid 1px #f7f1ef; border-radius: 50%;
-  height: 191px;
-  background-position: center;
-  vertical-align:middle;
-}
-.subscribe_1_item_img_border.this{
-  border: solid 2px #c5a282;
-}
-.subscribe_1_item_img_border img{vertical-align:middle;}
-
-.subscribe_1_item_box_title{font-family: 'MapoFlowerIsland'; line-height: 1.33;
-  letter-spacing: 1.2px;
-  color: #222629;
-  font-size: 16px;}
-.subscribe_1_item_box_subtitle{
-  font-family: NotoSansCJKKR;
-  font-size: 16px;line-height: 1.5;color: #939e91;
+.wrap_join {
+    width: 700px;
+    margin: 0 auto;
 }
 
-.subscribe_2_item_box{width: 400px; float: left;}
-.subscribe_2_item_box button{     width: auto;
-  height: auto;
-  padding: 6px 20px;
-  font-size: 12px;}
-  .subscribe_2_item_title{font-family: 'MapoFlowerIsland'; font-size: 24px;}
-  .subscribe_2_item_subtitle{font-family: 'MapoFlowerIsland'; font-size: 16px;}
-
-.subscribe_4_payr_box{
-  width: 320px;
+.join_input_box {
+    width: 75%;
+    float: left;
 }
-.subscribe_4_payr_box > div{
-  padding: 16px;
-  background-color: #f9f8f6;}
-.subscribe_4_payr_box_input{width: 320px;}
-
-
-.profile_name{ font-family: 'MapoFlowerIsland'; font-size: 32px; color: #222629;}
-.profile_line{width: 100%;     height: 1px; background-color: #c5a282;}
-.profile_subline{width: 100%;     height: 1px; background-color: #ebebeb; margin-top: -1px;}
-.profile_title{font-family: 'Benne'; font-size: 32px; letter-spacing: 4.8px;}
-.profile_subtitle{font-family: 'Benne'; font-size: 16px; letter-spacing: 2.4px; font-size: 16px;  color: #c4c4c4;}
-.jasmine_img_box{width: 85px;
-  height: 85px;
-  padding: 17.5px 17px;
-  background-color: #f7ede4;
-border-radius: 50%;
-  margin: 0;
+.wrap_join button {
+    width: 20%;
+    float: right;
+    margin-top: 8px;
+    height: 56px;
 }
-.jasmine_text_box{margin: 24px;}
-.profile_icon_box.this{border-bottom: 3px solid #222629; z-index: 200;}
+.join_btn {
+    width: 490px !important;
+    float: none !important;
+}
+.join_check_border {
+    padding: 32px 0px 32px 32px;
+    border: solid 1px #ebebeb;
+}
+.join_check_necessary {
+    color: #a03f26;
+}
 
+.wrap_subscribe_top {
+    width: 484px;
+    margin: 0 auto;
+}
+.wrap_subscribe_bottom {
+    /*width: 1080px;*/
+    margin: 0 auto;
+}
+.wrap_subscribe_bottom_1 {
+    width: max-content;
+    min-width: 300px;
+    margin: 0 auto;
+}
+
+.wrap_subscribe_bottom button {
+    margin: 5px;
+}
+.subscribe_top_icon {
+    width: 64px;
+    height: 64px;
+    margin: 0 0.1px 12px 0;
+    padding: 20px;
+    border: 1px solid #939e91;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position: center;
+}
+.subscribe_top_icon.this {
+    background-color: #939e91;
+}
+.subscribe_top_icon_box_1 {
+    width: 64px;
+    float: left;
+}
+.subscribe_top_icon_box_2 {
+    width: 67px;
+    float: left;
+}
+.subscribe_top_icon_box_2 > .btn_line {
+    margin-top: 32px;
+    background-color: #939e91;
+    z-index: 100;
+}
+.subscribe_top_icon_box_2 .btn_circle {
+    border-color: #939e91;
+}
+
+.wrap_subscribe_bottom_title_img:nth-child(1) {
+    left: -68px;
+}
+.wrap_subscribe_bottom_title_img:nth-child(2) {
+    margin: 0;
+    left: 100%;
+}
+
+.subscribe_1_item_box {
+    width: 190px;
+}
+.subscribe_1_item_img_border {
+    border: solid 1px #f7f1ef;
+    border-radius: 50%;
+    height: 191px;
+    background-position: center;
+    vertical-align: middle;
+}
+.subscribe_1_item_img_border.this {
+    border: solid 2px #c5a282;
+}
+.subscribe_1_item_img_border img {
+    vertical-align: middle;
+}
+
+.subscribe_1_item_box_title {
+    font-family: "MapoFlowerIsland";
+    line-height: 1.33;
+    letter-spacing: 1.2px;
+    color: #222629;
+    font-size: 16px;
+}
+.subscribe_1_item_box_subtitle {
+    font-family: NotoSansCJKKR;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #939e91;
+}
+
+.subscribe_2_item_box {
+    width: 400px;
+    float: left;
+}
+.subscribe_2_item_box button {
+    width: auto;
+    height: auto;
+    padding: 6px 20px;
+    font-size: 12px;
+}
+.subscribe_2_item_title {
+    font-family: "MapoFlowerIsland";
+    font-size: 24px;
+}
+.subscribe_2_item_subtitle {
+    font-family: "MapoFlowerIsland";
+    font-size: 16px;
+}
+
+.subscribe_4_payr_box {
+    width: 320px;
+}
+.subscribe_4_payr_box > div {
+    padding: 16px;
+    background-color: #f9f8f6;
+}
+.subscribe_4_payr_box_input {
+    width: 320px;
+}
+
+.profile_name {
+    font-family: "MapoFlowerIsland";
+    font-size: 32px;
+    color: #222629;
+}
+.profile_line {
+    width: 100%;
+    height: 1px;
+    background-color: #c5a282;
+}
+.profile_subline {
+    width: 100%;
+    height: 1px;
+    background-color: #ebebeb;
+    margin-top: -1px;
+}
+.profile_title {
+    font-family: "Benne";
+    font-size: 32px;
+    letter-spacing: 4.8px;
+}
+.profile_subtitle {
+    font-family: "Benne";
+    font-size: 16px;
+    letter-spacing: 2.4px;
+    font-size: 16px;
+    color: #c4c4c4;
+}
+.jasmine_img_box {
+    width: 85px;
+    height: 85px;
+    padding: 17.5px 17px;
+    background-color: #f7ede4;
+    border-radius: 50%;
+    margin: 0;
+}
+.jasmine_text_box {
+    margin: 24px;
+}
+.profile_icon_box.this {
+    border-bottom: 3px solid #222629;
+    z-index: 200;
+}
