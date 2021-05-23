@@ -8,7 +8,7 @@
 }
 
 /* 모바일 가로, 테블릿 세로 (해상도 ~ 479px)*/
-@media (min-width: 480px) and (max-width: 1790px) {
+@media (min-width: 480px) and (max-width: 1800px) {
     .wrap {
         width: 1590px;
     }
@@ -27,8 +27,8 @@
         font-size: 36px;
     }
     .banner_text_wrap {
-        margin-top: -250px;
-        font-size: 24px;
+        margin-top: -360px;
+        font-size: 36px;
         padding-left: 40px;
     }
     .v_line {
