@@ -12,6 +12,7 @@ $('.slider-for').slick({
 		$('.slider-nav').slick({
 			slidesToShow: 6,
 			slidesToScroll: 1,
+			arrows: false,
 			asNavFor: '.slider-for',
 			dots: true,
 			centerMode: true,
@@ -23,6 +24,7 @@ $('.slider-for').slick({
 		$('.slider-nav').slick({
 			slidesToShow: 5,
 			slidesToScroll: 1,
+			arrows: false,
 			asNavFor: '.slider-for',
 			dots: true,
 			centerMode: true,
@@ -34,6 +36,7 @@ $('.slider-for').slick({
 		$('.slider-nav').slick({
 			slidesToShow: 4,
 			slidesToScroll: 1,
+			arrows: false,
 			asNavFor: '.slider-for',
 			dots: true,
 			centerMode: true,
@@ -45,6 +48,7 @@ $('.slider-for').slick({
 		$('.slider-nav').slick({
 			slidesToShow: 3,
 			slidesToScroll: 1,
+			arrows: false,
 			asNavFor: '.slider-for',
 			dots: true,
 			centerMode: true,
@@ -56,6 +60,7 @@ $('.slider-for').slick({
 		$('.slider-nav').slick({
 			slidesToShow: 2,
 			slidesToScroll: 1,
+			arrows: false,
 			asNavFor: '.slider-for',
 			dots: true,
 			centerMode: true,
@@ -67,6 +72,7 @@ $('.slider-for').slick({
 		$('.slider-nav').slick({
 			slidesToShow: 1,
 			slidesToScroll: 1,
+			arrows: false,
 			asNavFor: '.slider-for',
 			dots: true,
 			centerMode: true,
@@ -80,6 +86,7 @@ $('.slider-for').slick({
 	$('.story_slider').slick({
 		slidesToShow: 1,
 		slidesToScroll: 1,
+		arrows: false,
 		centerMode: true,
 		focusOnSelect: true,
 		// autoplay: true,
@@ -106,6 +113,8 @@ $('.slider-for').slick({
 	$(slider).on("afterChange", function(){
 		slider_fix_count++
 	});
+
+	/*
 	$(document).on('wheel', (function(e) {
 		var story_slider_top = Math.ceil($(".story_slider").offset().top);
 		var now_top = $(this).scrollTop()
@@ -159,4 +168,5 @@ $('.slider-for').slick({
 			
 		}
 	}))
+	*/
 	
